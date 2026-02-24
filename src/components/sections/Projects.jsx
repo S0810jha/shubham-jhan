@@ -17,7 +17,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <SectionReveal key={index} delay={index * 200}>
               <div className="group relative bg-slate-900/80 border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/30 transition-all duration-300 h-full flex flex-col">
-                <div className="h-2 w-full bg-gradient-to-r from-cyan-500 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="h-2 w-full bg-gradient-to-r from-purple-400 to-purple-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 
                 <div className="p-8 flex-grow">
                   <div className="flex justify-between items-start mb-4">
@@ -29,7 +29,7 @@ export default function Projects() {
                   
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tech.map((t) => (
-                      <span key={t} className="text-xs font-semibold px-2 py-1 rounded bg-purple-500/10 text-purple-300 border border-purple-500/20">
+                      <span key={t} className="text-xs font-semibold px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">
                         {t}
                       </span>
                     ))}
