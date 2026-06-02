@@ -7,13 +7,13 @@ export default function Hero() {
   return (
     <section id="hero" className="relative z-10 min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20">
       <SectionReveal>
-        <div className="inline-block px-4 py-1.5 mb-6 border border-cyan-500/30 rounded-full bg-cyan-900/10 text-cyan-400 text-xs font-semibold tracking-wide uppercase">
+        <div className="inline-block px-4 py-1.5 mb-6 border border-cyan-500/30 rounded-full bg-cyan-200/10 text-cyan-600 text-xs font-semibold tracking-wide uppercase">
           MERN Stack Developer
         </div>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6">
-          Shubham <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">Jhan</span>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-slate-700 mb-6">
+          Shubham <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-purple-600">Jhan</span>
         </h1>
-        <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-10 leading-relaxed">
+        <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-500 mb-10 leading-relaxed">
           Building scalable, user-friendly web applications with MongoDB, Express, React, and Node.js. 
           Passionate about clean code and modern UI design.
         </p>
@@ -27,23 +27,23 @@ export default function Hero() {
           </button>
           <button 
             onClick={() => scrollToSection('contact')}
-            className="px-8 py-3.5 rounded-full border border-slate-700 hover:border-slate-500 hover:bg-slate-800/50 text-slate-300 transition-all"
+            className="px-8 py-3.5 rounded-full border border-slate-700 hover:border-slate-500 hover:bg-slate-800/50 text-slate-600 hover:text-slate-100 transition-all"
           >
             Contact Me
           </button>
         </div>
 
         <div className="mt-12 flex gap-6 justify-center">
-          <a href="https://github.com/S0810jha" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors hover:scale-110 transform duration-200" title="GitHub">
+          <a href="https://github.com/S0810jha" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-600 transition-colors hover:scale-110 transform duration-200" title="GitHub">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://www.linkedin.com/in/shubhamjhan03/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors hover:scale-110 transform duration-200" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/shubhamjhan03/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-600 transition-colors hover:scale-110 transform duration-200" title="LinkedIn">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="https://codeforces.com/profile/shubham0310" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors hover:scale-110 transform duration-200" title="Codeforces">
+          <a href="https://codeforces.com/profile/shubham0310" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-600 transition-colors hover:scale-110 transform duration-200" title="Codeforces">
             <BarChart2 className="w-6 h-6" />
           </a>
-          <a href="mailto:shubhamjha03102003@gmail.com" className="text-slate-400 hover:text-cyan-400 transition-colors hover:scale-110 transform duration-200" title="Email">
+          <a href="mailto:shubhamjha03102003@gmail.com" className="text-slate-400 hover:text-cyan-600 transition-colors hover:scale-110 transform duration-200" title="Email">
             <Mail className="w-6 h-6" />
           </a>
         </div>

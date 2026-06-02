@@ -4,17 +4,17 @@ import { Code2, Server, Database } from 'lucide-react';
 export const skills = [
   {
     category: "Frontend",
-    icon: <Code2 className="w-6 h-6 text-cyan-400" />,
+    icon: <Code2 className="w-6 h-6 text-cyan-500" />,
     items: ["React.js", "Tailwind CSS", "HTML5/CSS3", "JavaScript (ES6+)", "React Context API", "Axios", "Responsive UI/UX Design"]
   },
   {
     category: "Backend",
-    icon: <Server className="w-6 h-6 text-purple-400" />,
+    icon: <Server className="w-6 h-6 text-purple-500" />,
     items: ["Node.js", "Express.js", "RESTful APIs", "JWT Auth", "MVC Architecture", "Bcrypt", "Middleware Integration", "API Integration", "Socket.io"]
   },
   {
     category: "Languages & Tools",
-    icon: <Database className="w-6 h-6 text-emerald-400" />,
+    icon: <Database className="w-6 h-6 text-emerald-500" />,
     items: ["C++", "DSA (Data Structures)", "MongoDB", "Mongoose", "System Design" ,"Git & GitHub", "Postman", "VS Code"]
   }
 ];

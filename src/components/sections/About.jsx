@@ -8,15 +8,15 @@ export default function About() {
     <section id="about" className="relative z-10 py-24 px-6">
       <div className="container mx-auto max-w-4xl">
         <SectionReveal>
-          <div className="flex flex-col md:flex-row items-center gap-12 bg-slate-900/50 backdrop-blur-sm border border-white/5 p-8 md:p-12 rounded-3xl">
+          <div className="flex flex-col md:flex-row items-center gap-12 bg-slate-900/10 backdrop-blur-sm border border-white/5 p-8 md:p-12 rounded-3xl">
             <div className="w-full md:w-2/3">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">About <span className="text-purple-400">Me</span></h2>
-              <p className="text-slate-400 leading-relaxed mb-6">
-                I am a self-driven <strong className="text-slate-200">MERN Stack Developer</strong> currently pursuing my BCA from Maharshi Dayanand University (2026).
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-700 mb-6">About <span className="text-purple-600">Me</span></h2>
+              <p className="text-slate-600 leading-relaxed mb-6">
+                I am a self-driven <strong className="text-slate-700">MERN Stack Developer</strong> currently pursuing my BCA from Maharshi Dayanand University (2026).
                 I specialize in building responsive, user-friendly web applications using the modern JavaScript ecosystem.
               </p>
-              <p className="text-slate-400 leading-relaxed">
-                With a strong foundation in <strong className="text-slate-200">REST APIs, Authentication, and MVC architecture</strong>, 
+              <p className="text-slate-600 leading-relaxed">
+                With a strong foundation in <strong className="text-slate-700">REST APIs, Authentication, and MVC architecture</strong>, 
                 I enjoy solving complex problems and optimizing code for performance. Whether it's designing a sleek UI with Tailwind 
                 or structuring a scalable backend with Node.js, I am passionate about every layer of development.
               </p>

@@ -9,7 +9,7 @@ import Footer from './components/layout/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-cyan-500/30 selection:text-cyan-200 overflow-x-hidden">
+    <div className="min-h-screen bg-white text-slate-200 font-sans selection:bg-cyan-500/30 selection:text-cyan-200 overflow-x-hidden">
       
       {/* --- BACKGROUND BLOBS --- */}
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
